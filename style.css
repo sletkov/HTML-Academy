@@ -1,65 +1,73 @@
-body {
-    margin: 0;  
-    background:url(img/background.png) no-repeat;
-    font-family: 'Montserrat', sans-serif;
-    color:#533738;
-    font-weight: bold;
-}
-
-.flexbox{
-    display: flex;
-}
-
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
-p{
-    color: #533738;
+*{
+    color: #533738 ;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
-a{text-decoration: none;}
+.body{
+    min-height: 100vh;
+}
 
-nav{
-    margin-left: 62px;
+.header__section {
+    margin-left: 100px;
+}
+
+.header{
+    background: url(img/header__background.jpg) no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-top: 38px;
+}
+
+.section-menu {
     display: flex;
 }
-#request-button {
-    font-size: 20px;
+
+.logo {
+    display: flex;
+}
+
+.header__navigation {
+    margin-left: 89px;
+    margin-top: 5px;
+}
+
+.link {
+    text-decoration: none;
+    padding-right: 26px;
+}
+
+.header__phone{
+    margin-left: 9px;
+    margin-top: 5px;
+}
+
+.header__content {
+    margin-left: 185px;
+    margin-top: 94px;
+}
+
+.request-button {
     height: 74px;
     width: 309px;
     background-color: #CC8B86;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
     border: none;
+    margin-top: 21px;
+    margin-bottom: 141px;
 }
-
-.main-page{
-    display: flex;
-    flex-direction: column;
-    margin-left:184px;
-    margin-top: 91px;
-}
-.main-page h1 {
+.heading {
+    width: 534px;
+    height: 186px;
     font-size: 50px;
     line-height: 62px;
-    width: 534px;
-    margin: 0;
 }
-.main-page .description {
+.about {
+    margin-top: 24px;
+    width: 493px;
+    height: 90px;
     font-size: 18px;
     line-height: 30px;
-    width: 493px;
 }
-.logo {
-    margin-left: 100px;
-}
-header{
-    padding-top: 36px;
-}
-header p {
-    margin-left:22px;
-}
-.logo-text{
-    margin-left: 0;
-}
-.phone-number {
-    margin-left: 41px;
-}
-

@@ -7,37 +7,48 @@
     <link rel="stylesheet" href="style.css">
     <title>Landing</title>
 </head>
-<body>
-    <header>
-        <div class="flexbox">
-           <img src="img/logo.svg" class="logo"width="50" height="50" alt="">
-           <p class="logo-text">SCANDI</p> 
-           <nav>
-               <a href=""><p>О компании</p></a>
-               <a href=""><p>Портфолио</p></a>
-               <a href=""><p>Команда</p></a>
-               <a href=""><p>Как мы работаем</p></a>
-               <a href=""><p>Отзывы клиентов</p></a>
-               <a href=""><p>Оставить заявку</p></a>
-           </nav>
-           <p class="phone-number">+7(981)857-46-24</p>
+<body сlass="body">
+    
+    <header class="body__header header">
+
+        <div class="header__section section-menu">
+
+            <div class="header__logo logo">
+                <img src="img/logo.svg"  class="logo_item"alt="logo">
+                <h2 class="logo_item">SCANDI</h2>
+            </div>
+             
+            <nav class="header__navigation navigation">
+                <ul class="navigation__list ">
+                    <a href="#" class="navigation__link link">О компании</a>
+                    <a href="#" class="navigation__link link">Портфолио</a>
+                    <a href="#" class="navigation__link link">Команда</a>
+                    <a href="#" class="navigation__link link">Как мы работаем</a>
+                    <a href="#" class="navigation__link link">Отзывы клиентов</a>
+                    <a href="#" class="navigation__link link">Оставить заявку</a>
+                </ul>
+            </nav>
+
+            <p class="header__phone">
+                +7 (981) 857-46-24  
+            </p>
+
         </div>
+
+        <div class="header__content">
+            <p class="heading">
+                Поможем сделать вашу квартиру уютнее
+            </p>
+
+            <p class="about">
+                Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку
+            </p>
+
+            <button class="request-button">Оставить заявку</button>
+
+        </div>
+
     </header>
 
-    <main>
-        <section class="main-page">
-            <h1>Поможем сделать вашу квартиру уютнее</h1>
-            <p class="description">Подбираем текстиль, мебель и аксессуары под ваш интерьер, находим магазины и помогаем организовать доставку</p>
-            <button id="request-button"><p>Оставить заявку</p></button>
-        </section>
-        <section>
-
-        </section>
-    </main>
-    
-    <footer>
-
-    </footer>
-    
 </body>
 </html>
