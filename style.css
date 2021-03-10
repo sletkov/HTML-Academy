@@ -44,9 +44,14 @@
     margin-top: 5px;
 }
 
-.header__content {
+.header__call-back {
     margin-left: 185px;
     margin-top: 94px;
+}
+
+.call-back__request-button {
+    margin-top: 21px;
+    margin-bottom: 141px;
 }
 
 .request-button {
@@ -55,17 +60,20 @@
     background-color: #CC8B86;
     font-size: 20px;
     border: none;
-    margin-top: 21px;
-    margin-bottom: 141px;
 }
+
 .heading {
     width: 534px;
     height: 186px;
     font-size: 50px;
     line-height: 62px;
 }
-.about {
+
+.call-back__about {
     margin-top: 24px;
+}
+
+.about {
     width: 493px;
     height: 90px;
     font-size: 18px;
