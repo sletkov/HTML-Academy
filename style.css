@@ -34,7 +34,7 @@
     margin-top: 5px;
 }
 
-.link {
+.navigation__link {
     text-decoration: none;
     padding-right: 26px;
 }
@@ -78,4 +78,79 @@
     height: 90px;
     font-size: 18px;
     line-height: 30px;
+}
+
+.main__about {
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.about__heading {
+    padding-top: 65px;
+    line-height: 50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.about__img {
+    padding-left: 183px;
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+.about__text {
+    padding-top: 40px;
+    padding-left: 61px;
+    width: 528px;
+    height: 330px;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 156px;
+}
+
+.section-indicators {
+    background-color: #8D7370;
+    width: 100%;
+    height: 273px;
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.indicator {
+    color: white;
+    font-size: 50px;
+    line-height: 62px;
+}
+
+.main__works{
+    width: 100%;
+    background-color: #E5E5E5;
+}
+
+.works__heading {
+    padding-top:65px;
+    padding-left: 100px;
+    
+}
+
+.works__section {
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.section-works {
+    display: grid;
+    column-gap: 20px;
+    row-gap: 30px;
+}
+
+.example__bed {
+    grid-row:1/2 ;
+    grid-column:1/2 ;
+}
+
+.example__kitchen {
+    grid-row:1/2 ;
+    grid-column:2/4 ;
 }
