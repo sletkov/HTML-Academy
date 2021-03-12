@@ -154,3 +154,130 @@
     grid-row:1/2 ;
     grid-column:2/4 ;
 }
+.works__see-more {
+    background: none;
+    border: none;
+    text-align: center;
+    width: 284px;
+    height: 37px;
+    margin-left: 620px;
+    font-size: 30px;
+    line-height: 36px;
+    margin-top: 40px;
+    margin-bottom:65px;
+}
+
+.team__heading {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.team {
+    background-color: #E2C4BA;
+    width:100%;
+    padding-top:50px;
+}
+
+.members {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.member__card {
+    padding: 42px;
+}
+.about__member {
+    width: 320px;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.how-we-work__heading {
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+}
+
+.how-we-work__examples{
+    display:flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.about__example {
+    width: 285px;
+    font-size:18px;
+    line-height: 30px;
+    padding-top:20px;
+    padding-bottom: 80px ;
+}
+
+.step__circle {
+    color: white;
+    text-align: center;
+    background-color: #8D7370;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-left:90px;
+}
+
+.step__number {
+    color: white;
+    font-size: 30px;
+    line-height: 30px;
+    padding: 20px;
+}
+
+.reviews {
+    background-color: #E5E5E5;
+    width: 100%;
+}
+
+.reviews__heading{
+    text-align: center;
+    font-size: 40px;
+    line-height: 50px;
+    padding-top:65px ;
+}  
+
+.reviews__wrapper {
+    display: flex;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+.review__text {
+    font-size: 18px;
+    line-height: 30px;
+    width: 407px;
+    padding-top: 131px;
+}
+.review__author {
+    padding-top:20px ;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.reviews__images {
+    padding-top:20px;
+    padding-bottom:65px;
+    padding-left:20px ;
+}
+
+.review__image {
+    padding-top:20px;
+}
+
+.reviews__slide {
+    width: 72px;
+    height: 72px;
+    align-self: center;
+    background-color:#CC8B86;
+    border:none;
+    border-radius: 50%;
+    font-size: large;
+    color: white;
+}
