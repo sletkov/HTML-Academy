@@ -53,12 +53,12 @@
     margin-top: 94px;
 }
 
-.call-back__request-button {
+.call-back__button {
     margin-top: 21px;
     margin-bottom: 141px;
 }
 
-.request-button {
+.button {
     height: 74px;
     width: 309px;
     background-color: #CC8B86;
@@ -74,14 +74,15 @@
 }
 
 .call-back__about {
-    margin-top: 24px;
-}
-
-.about {
     width: 493px;
     height: 90px;
     font-size: 18px;
     line-height: 30px;
+    margin-top: 24px;
+}
+
+.about {
+  
 }
 
 .main__about {
@@ -213,6 +214,7 @@
     line-height: 30px;
     padding-top:20px;
     padding-bottom: 80px ;
+    text-align: center;
 }
 
 .step__circle {
@@ -222,7 +224,7 @@
     width: 70px;
     height: 70px;
     border-radius: 50%;
-    margin-left:90px;
+    margin-left:105px;
 }
 
 .step__number {
@@ -235,7 +237,7 @@
 .reviews {
     background-color: #E5E5E5;
     width: 100%;
-    text-transform: uppercase;
+
 }
 
 .reviews__heading{
@@ -243,6 +245,7 @@
     font-size: 40px;
     line-height: 50px;
     padding-top:65px ;
+    text-transform: uppercase;
 }  
 
 .reviews__wrapper {
@@ -250,15 +253,18 @@
     padding-left: 183px;
 }
 
+.reviews_blockquote {
+    margin-top: 95px;
+}
 .review__text {
     font-size: 18px;
     line-height: 30px;
     width: 407px;
-    padding-top: 131px;
+    padding-top: 36px;
     padding-left:29px;
 }
 .review__author {
-    padding-top:20px ;
+    margin-top:20px ;
     font-size: 18px;
     line-height: 30px;
     padding-left:29px;
@@ -354,18 +360,25 @@ input::placeholder {
     margin-bottom: 37px;
     margin-top: 37px;
     margin-left: 100px;
+    font-size: 18px;
+    line-height: 30px;
+    text-decoration: none;
 }
 
 .footer__address{
     margin-left: 42px;
     margin-bottom: 37px;
     margin-top: 37px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .footer__owner {
     margin-left: 379px;
     margin-bottom: 37px;
     margin-top: 37px;
+    font-size: 18px;
+    line-height: 30px;
 }
 
 .txt{
